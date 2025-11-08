@@ -28,19 +28,6 @@ export default function NavBar() {
           <li>
             <a>Tugas 2</a>
           </li>
-          {/* <li>
-            <details>
-              <summary>Tugas</summary>
-              <ul className="bg-base-100 rounded-t-none p-2 w-max">
-                <li>
-                  <a>Tugas 1</a>
-                </li>
-                <li>
-                  <a>Tugas 2</a>
-                </li>
-              </ul>
-            </details>
-          </li> */}
         </ul>
       </div>
     </div>

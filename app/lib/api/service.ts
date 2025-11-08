@@ -37,22 +37,4 @@ export const apiService = {
     predict: (input: any) =>
       apiClient.post(API_CONFIG.ENDPOINTS.NEURAL_NETWORK.PREDICT, { input }),
   },
-
-  /**
-   * Fuzzy Mamdani APIs (Tugas 2)
-   */
-  mamdani: {
-    getInfo: () => apiClient.get('/api/v1/mamdani/info'),
-    getMembershipFunctions: () => apiClient.get('/api/v1/mamdani/membership-functions'),
-    compute: (params: {
-      demand: number;
-      inventory: number;
-      params?: {
-        demand_range?: [number, number];
-        inventory_range?: [number, number];
-        production_range?: [number, number];
-        resolution?: number;
-      };
-    }) => apiClient.post('/api/v1/mamdani/compute', params),
-  },
 };

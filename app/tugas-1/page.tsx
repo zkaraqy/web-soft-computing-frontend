@@ -1,7 +1,3 @@
-/**
- * Assignments/Tugas Page
- */
-
 "use client";
 
 import Image from "next/image";
@@ -131,18 +127,6 @@ export default function AssignmentsPage() {
   return (
     <div className="min-h-screen pt-24 w-full bg-gray-50 p-6">
       <div className="w-full mx-auto">
-        {/* Header */}
-        {/* <div className="mb-8">
-          <Badge variant="info" className="mb-4">
-            📝 Tugas Matakuliah
-          </Badge>
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Daftar Tugas Soft Computing
-          </h1>
-          <p className="text-gray-600 text-lg">
-            Kumpulan tugas dan penjelasan materi soft computing
-          </p>
-        </div> */}
 
         {/* Assignments List */}
         <div className="space-y-8">
@@ -154,7 +138,6 @@ export default function AssignmentsPage() {
                   <h2 className="text-2xl font-bold text-gray-900">
                     {assignment.title}
                   </h2>
-                  <Badge variant="success">Completed</Badge>
                 </div>
                 <p className="text-gray-600">{assignment.description}</p>
               </div>
@@ -239,19 +222,6 @@ export default function AssignmentsPage() {
             </Card>
           ))}
         </div>
-
-        {/* Add Assignment Placeholder */}
-        {/* <Card className="mt-8 border-2 border-dashed border-gray-300 bg-gray-50">
-          <div className="text-center py-12">
-            <div className="text-6xl mb-4">➕</div>
-            <h3 className="text-xl font-semibold text-gray-700 mb-2">
-              Tambah Tugas Baru
-            </h3>
-            <p className="text-gray-500">
-              Tugas berikutnya akan ditambahkan di sini
-            </p>
-          </div>
-        </Card> */}
       </div>
     </div>
   );
