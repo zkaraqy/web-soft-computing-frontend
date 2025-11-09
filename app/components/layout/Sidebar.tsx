@@ -14,6 +14,7 @@ interface NavItem {
 const navigation: NavItem[] = [
   { name: "Tugas 1", href: "/tugas-1", icon: "📝" },
   { name: "Tugas 2", href: "/tugas-2", icon: "📝" },
+  { name: "Tugas 3", href: "/tugas-3", icon: "📝" },
 ];
 
 export default function Sidebar() {

@@ -99,7 +99,7 @@ export default function FuzzySugenoPage() {
             <button
               onClick={handleCompute}
               disabled={loading}
-              className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 disabled:opacity-50"
+              className="w-full cursor-pointer bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {loading ? "Menghitung..." : "Hitung Produksi"}
             </button>
