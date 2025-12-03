@@ -243,16 +243,13 @@ export default function GeneticAlgorithmPage() {
                     className="mr-2"
                   />
                   <span className="text-sm font-medium text-gray-700">
-                    Gunakan Elitism
+                    Pertahankan individu terbaik
                   </span>
                 </label>
-                <p className="text-xs text-gray-500 mt-1">
-                  Pertahankan individu terbaik
-                </p>
               </div>
 
               {/* Random Seed */}
-              <div className="mb-4">
+              {/* <div className="mb-4">
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   Random Seed
                 </label>
@@ -265,7 +262,7 @@ export default function GeneticAlgorithmPage() {
                 <p className="text-xs text-gray-500 mt-1">
                   Untuk hasil yang konsisten
                 </p>
-              </div>
+              </div> */}
 
               {/* Run Button */}
               <button

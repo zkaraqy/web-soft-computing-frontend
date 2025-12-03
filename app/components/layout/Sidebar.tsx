@@ -15,6 +15,7 @@ const navigation: NavItem[] = [
   { name: "Tugas 1", href: "/tugas-1", icon: "📝" },
   { name: "Tugas 2", href: "/tugas-2", icon: "📝" },
   { name: "Tugas 3", href: "/tugas-3", icon: "📝" },
+  { name: "Tugas 4", href: "/tugas-4", icon: "📝" },
 ];
 
 export default function Sidebar() {
@@ -40,7 +41,7 @@ export default function Sidebar() {
               <span className="font-bold text-gray-900">Soft Computing</span>
             </div>
           )}
-          <button
+          {/* <button
             onClick={() => setIsCollapsed(!isCollapsed)}
             className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
           >
@@ -60,7 +61,7 @@ export default function Sidebar() {
                 d="M15 19l-7-7 7-7"
               />
             </svg>
-          </button>
+          </button> */}
         </div>
 
         {/* Navigation */}
